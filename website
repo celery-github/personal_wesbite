@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celeste Taylor - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #007BFF;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h2 {
+            font-size: 2em;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 10px;
+            color: #007BFF;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .contact-info {
+            font-size: 1.1em;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #007BFF;
+            color: #fff;
+            border-radius: 0 0 8px 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Celeste Taylor</h1>
+        </header>
+        
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>As an experienced data analytics professional, I am excited to transition into the dynamic and rapidly growing field of DevOps Engineering. I crave intellectual stimulation, I welcome solving complex problems, and after meeting me, yes, I am this naturally enthusiastic. I enjoy reading, snowboarding, and golfing.</p>
+        </section>
+        
+        <section id="interests">
+            <h2>Interests</h2>
+            <p>In my spare time, I immerse myself in reading various genres, hit the slopes for some exhilarating snowboarding, and swing a club on the golf course. These activities keep me balanced and motivated, reflecting my passion for both intellectual and physical challenges.</p>
+        </section>
+        
+        <section id="contact-information">
+            <h2>Contact Information</h2>
+            <p class="contact-info">You can reach me via email at: <a href="mailto:celeste.taylor@example.com">celeste.taylor@example.com</a></p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Celeste Taylor. All rights reserved.</p>
+    </footer>
+</body>
+</html>
